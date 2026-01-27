@@ -7,6 +7,7 @@ V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspon
 </h1>
 <h4 align="center"><em>Jiancheng Pan*,     Runze Wang*,     Tianwen Qian,     Mohammad Mahdi,     Yanwei Fu,     Xiangyang Xue,     Xiaomeng Huang,     Luc Van Gool,     Danda Pani Paudel,     Yuqian Fu✉ </em></h4>
 
+\* *Equal Contribution* &nbsp; &nbsp; Corresponding Author ✉
 </div>
 
 <p align="center">
