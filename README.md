@@ -5,6 +5,8 @@
 <h1 align="center">
 V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence
 </h1>
+<h4 align="center"><em>Jiancheng Pan*,     Runze Wang*,     Tianwen Qian,     Mohammad Mahdi,     Yanwei Fu,     Xiangyang Xue,     Xiaomeng Huang,     Luc Van Gool,     Danda Pani Paudel,     Yuqian Fu✉ </em></h4>
+
 </div>
 
 <p align="center">
@@ -56,9 +58,13 @@ pip install -e .
 ```
 
 ### SAM2 and DINOV3 weights
-
+Choose the base model weights to use.
 ```
-huggingface-cli download jaychempan/dino3 --local-dir ./weights/dinov3 --include dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth
+huggingface-cli download jaychempan/sam3 --local-dir weights/sam2 --include dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth
+
+huggingface-cli download jaychempan/dinov2 --local-dir weights/dinov2 --include dinov2_vitg14_reg4_pretrain.pth
+
+huggingface-cli download jaychempan/dinov3 --local-dir weights/dinov3 --include sam2_hiera_large.pt
 ```
 
 ### Train
@@ -76,6 +82,23 @@ bash tools/test_all.sh test projects/v2sam/configs/v2sam.py 4 /path/to/checkpoin
 ```
 
 ## Statement
+### Acknowledgement
+
+This project references and uses the following open source models and datasets.
+
+#### Related Open Source Models
+
+- [Sa2VA](https://arxiv.org/abs/2501.04001)
+- [SAM2](https://arxiv.org/abs/2408.00714)
+- [DINOv2](https://arxiv.org/abs/2304.07193)
+- [DINOv3](https://arxiv.org/abs/2508.10104)
+
+#### Related Open Source Datasets
+
+- [Ego-Exo4D Dataset](https://ego-exo4d-data.org/)
+- [DAVIS-2017 Dataset](https://davischallenge.org/davis2017/code.html)
+- [HANDAL-X Dataset](https://nvlabs.github.io/HANDAL/)
+
 
 ### Citation
 
