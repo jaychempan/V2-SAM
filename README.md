@@ -5,9 +5,11 @@
 <h1 align="center">
 V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence
 </h1>
-<h4 align="center"><em>Jiancheng Pan*,     Runze Wang*,     Tianwen Qian,     Mohammad Mahdi,</em></h4>
-<h4 align="center"><em>Yanwei Fu,     Xiangyang Xue,     Xiaomeng Huang,</em></h4>
-<h4 align="center"><em>Luc Van Gool,     Danda Pani Paudel,     Yuqian Fu✉ </em></h4>
+<h4 align="center"><em>Jiancheng Pan*,     Runze Wang*,     Tianwen Qian,     Mohammad Mahdi,     Xiangyang Xue,</em></h4>
+<h4 align="center"><em>Xiaomeng Huang,     Luc Van Gool,     Danda Pani Paudel,     Yuqian Fu✉ </em></h4>
+<p align="center">
+    <img src="assets/ins.png" alt="Image" width="350">
+</p>
 
 \* *Equal Contribution* &nbsp; &nbsp; Corresponding Author ✉
 </div>
