@@ -5,13 +5,16 @@
 <h1 align="center">
 V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence
 </h1>
-<h4 align="center"><em>Jiancheng Pan*,     Runze Wang*,     Tianwen Qian,     Mohammad Mahdi,     Yanwei Fu,     Xiangyang Xue,     Xiaomeng Huang,     Luc Van Gool,     Danda Pani Paudel,     Yuqian Fu✉ </em></h4>
+<h4 align="center"><em>Jiancheng Pan*,     Runze Wang*,     Tianwen Qian,     Mohammad Mahdi,</em></h4>
+<h4 align="center"><em>Yanwei Fu,     Xiangyang Xue,     Xiaomeng Huang,</em></h4>
+<h4 align="center"><em>Luc Van Gool,     Danda Pani Paudel,     Yuqian Fu✉ </em></h4>
 
 \* *Equal Contribution* &nbsp; &nbsp; Corresponding Author ✉
 </div>
 
 <p align="center">
     <a href="https://arxiv.org/abs/2511.20886"><img src="https://img.shields.io/badge/Arxiv-2511.20886-b31b1b.svg?logo=arXiv"></a>
+    <a href="https://huggingface.co/jaychempan/V2-SAM"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-HuggingFace-yellow?style=flat&logo=hug"></a>
     <a href="https://v2sam.space/"><img src="https://img.shields.io/badge/V2SAM-Project_Page-<color>"></a>
     <a href="https://github.com/jaychempan/V2SAM/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow"></a>
 </p>
@@ -26,10 +29,15 @@ V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspon
 
 
 ## News
-- [2025/5/20] Our paper of "V2-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence" is up on [arXiv](https://arxiv.org/abs/2511.20886).
+- [2026/2/21] Our V²-SAM is accepted by CVPR 2026. Thanks to all contributors.
+- [2025/5/20] Our paper of "V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence" is up on [arXiv](https://arxiv.org/abs/2511.20886).
 
 ## Abstract
 Cross-view object correspondence, exemplified by the representative task of ego-exo object correspondence, aims to establish consistent associations of the same object across different viewpoints (e.g., ego-centric and exo-centric). This task poses significant challenges due to drastic viewpoint and appearance variations, making existing segmentation models, such as SAM2, non-trivial to apply directly. To address this, we present V2-SAM, a unified cross-view object correspondence framework that adapts SAM2 from single-view segmentation to cross-view correspondence through two complementary prompt generators. Specifically, the Cross-View Anchor Prompt Generator (V2-Anchor), built upon DINOv3 features, establishes geometry-aware correspondences and, for the first time, unlocks coordinate-based prompting for SAM2 in cross-view scenarios, while the Cross-View Visual Prompt Generator (V2-Visual) enhances appearance-guided cues via a novel visual prompt matcher that aligns ego-exo representations from both feature and structural perspectives. To effectively exploit the strengths of both prompts, we further adopt a multi-expert design and introduce a Post-hoc Cyclic Consistency Selector (PCCS) that adaptively selects the most reliable expert based on cyclic consistency. Extensive experiments validate the effectiveness of V2-SAM, achieving new state-of-the-art performance on Ego-Exo4D (ego-exo object correspondence), DAVIS-2017 (video object tracking), and HANDAL-X (robotic-ready cross-view correspondence).
+
+<p align="center">
+    <img src="assets/v2sam-framework.png" alt="Image">
+</p>
 
 ## Dataset
 Our method based on Ego-Exo4D (ego-exo object correspondence), DAVIS-2017 (video object tracking), and HANDAL-X (robotic-ready cross-view correspondence).
@@ -67,6 +75,7 @@ huggingface-cli download jaychempan/dinov2 --local-dir weights/dinov2 --include 
 
 huggingface-cli download jaychempan/dinov3 --local-dir weights/dinov3 --include sam2_hiera_large.pt
 ```
+
 
 ### Train
 
