@@ -44,6 +44,15 @@ Cross-view object correspondence, exemplified by the representative task of ego-
 ## Dataset
 Our method based on Ego-Exo4D (ego-exo object correspondence), DAVIS-2017 (video object tracking), and HANDAL-X (robotic-ready cross-view correspondence).
 
+You can use our process data in Huggingface:
+
+Ego-Exo4D: https://huggingface.co/datasets/jaychempan/Ego-Exo4D-Relation-Train and
+https://huggingface.co/datasets/jaychempan/Ego-Exo4D-Relation-Test
+
+DAVIS-2017: https://huggingface.co/datasets/jaychempan/DAVIS
+
+HANDAL-X: https://huggingface.co/datasets/jaychempan/HANDAL
+
 ## Model
 ### Environment Setup
 
@@ -84,6 +93,11 @@ huggingface-cli download jaychempan/dinov3 --local-dir weights/dinov3 --include 
 ```
 bash tools/dist.sh train projects/v2sam/configs/v2sam.py 4
 ```
+if `V²-Visual`, rename the project's dir `projects/v2sam_visual` --> `projects/v2sam`
+
+else `V²-Fusion`, rename the project's dir `projects/v2sam_fusion` --> `projects/v2sam`
+
+> Note: `V²-Anchor` no need to train (use sam2 offical decoder checkpoint)
 
 ### Test
 
