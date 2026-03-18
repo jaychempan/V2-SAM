@@ -44,14 +44,17 @@ Cross-view object correspondence, exemplified by the representative task of ego-
 ## Dataset
 Our method based on Ego-Exo4D (ego-exo object correspondence), DAVIS-2017 (video object tracking), and HANDAL-X (robotic-ready cross-view correspondence).
 
-You can use our process data in Huggingface:
+We provide the processed versions of these datasets on HuggingFace for easy access:
 
-Ego-Exo4D: https://huggingface.co/datasets/jaychempan/Ego-Exo4D-Relation-Train and
-https://huggingface.co/datasets/jaychempan/Ego-Exo4D-Relation-Test
+### 🔹 Ego-Exo4D
+- [Train Split](https://huggingface.co/datasets/jaychempan/Ego-Exo4D-Relation-Train)
+- [Test Split](https://huggingface.co/datasets/jaychempan/Ego-Exo4D-Relation-Test)
 
-DAVIS-2017: https://huggingface.co/datasets/jaychempan/DAVIS
+### 🔹 DAVIS-2017
+- [Dataset Link](https://huggingface.co/datasets/jaychempan/DAVIS)
 
-HANDAL-X: https://huggingface.co/datasets/jaychempan/HANDAL
+### 🔹 HANDAL-X
+- [Dataset Link](https://huggingface.co/datasets/jaychempan/HANDAL)
 
 ## Model
 ### Environment Setup
