@@ -84,11 +84,11 @@ pip install -e .
 ### SAM2 and DINOV3 weights
 Choose the base model weights to use.
 ```
-huggingface-cli download jaychempan/sam3 --local-dir weights/sam2 --include dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth
+huggingface-cli download jaychempan/sam3 --local-dir weights/sam2 --include sam2_hiera_large.pt
 
 huggingface-cli download jaychempan/dinov2 --local-dir weights/dinov2 --include dinov2_vitg14_reg4_pretrain.pth
 
-huggingface-cli download jaychempan/dinov3 --local-dir weights/dinov3 --include sam2_hiera_large.pt
+huggingface-cli download jaychempan/dinov3 --local-dir weights/dinov3 --include dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth
 ```
 
 
