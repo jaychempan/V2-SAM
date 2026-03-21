@@ -141,4 +141,11 @@ If you are interested in the following work or want to use our dataset, please c
   journal={arXiv preprint arXiv:2511.20886},
   year={2025}
 }
+
+@inproceedings{fu2025objectrelator,
+  title={Objectrelator: Enabling cross-view object relation understanding across ego-centric and exo-centric perspectives},
+  author={Fu, Yuqian and Wang, Runze and Ren, Bin and Sun, Guolei and Gong, Biao and Fu, Yanwei and Paudel, Danda Pani and Huang, Xuanjing and Van Gool, Luc},
+  booktitle={ICCV},
+  year={2025}
+}
 ```
