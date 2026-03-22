@@ -18,7 +18,7 @@ V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspon
     <a href="https://arxiv.org/abs/2511.20886"><img src="https://img.shields.io/badge/Arxiv-2511.20886-b31b1b.svg?logo=arXiv"></a>
     <a href="https://arxiv.org/abs/2511.20886"><img src="https://img.shields.io/badge/CVPR'26-Paper-blue"></a>
     <a href="https://huggingface.co/jaychempan/V2-SAM"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-HuggingFace-yellow?style=flat&logo=hug"></a>
-    <a href="https://v2sam.space/"><img src="https://img.shields.io/badge/V2-SAM-Project_Page-<color>"></a>
+    <a href="https://jianchengpan.space/projects/V2-SAM/"><img src="https://img.shields.io/badge/V2--SAM-Project_Page-green"></a>
     <a href="https://github.com/jaychempan/V2SAM/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow"></a>
 </p>
 
