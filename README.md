@@ -134,12 +134,12 @@ This project references and uses the following open source models and datasets.
 
 If you are interested in the following work or want to use our dataset, please cite the following paper.
 
-```
-@article{pan2025v,
-  title={V $\^{}$\{$2$\}$ $-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence},
+```bibtex
+@inproceedings{pan2026v,
+  title={V$^{2}$-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence},
   author={Pan, Jiancheng and Wang, Runze and Qian, Tianwen and Mahdi, Mohammad and Fu, Yanwei and Xue, Xiangyang and Huang, Xiaomeng and Van Gool, Luc and Paudel, Danda Pani and Fu, Yuqian},
-  journal={arXiv preprint arXiv:2511.20886},
-  year={2025}
+  booktitle={CVPR},
+  year={2026}
 }
 
 @inproceedings{fu2025objectrelator,
