@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/v2sam-logo.png" alt="Image" width="70">
+    <img src="assets/v2sam-logo.png" alt="Image" width="130">
 </p>
 <div align="center">
 <h1 align="center">
