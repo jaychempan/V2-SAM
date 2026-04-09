@@ -132,7 +132,7 @@ This project references and uses the following open source models and datasets.
 
 ### Citation
 
-If you are interested in the following work or want to use our dataset, please cite the following paper.
+If you are interested in the following work or want to use our model, please cite the following paper.
 
 ```bibtex
 @inproceedings{pan2026v,
