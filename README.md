@@ -23,6 +23,7 @@ V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspon
 </p>
 
 <p align="center">
+  <a href="#demo">Demo</a> |
   <a href="#news">News</a> |
   <a href="#abstract">Abstract</a> |
   <a href="#dataset">Dataset</a> |
@@ -30,6 +31,44 @@ V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspon
   <a href="#statement">Statement</a>
 </p>
 
+
+## Demo
+Representative qualitative results on ego-to-exo, exo-to-ego, and robotic-ready cross-view correspondence.
+
+<table align="center">
+  <tr>
+    <th>Reference</th>
+    <th>Prediction</th>
+    <th>Ground Truth</th>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="assets/demo/ego2exo/1_iou0.879_flowflex_rapid_antigen_test_kit_6d1847fe-d2d.gif" alt="Ego-to-Exo Sample 1"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="assets/demo/ego2exo/2_iou0.793_covid19_antigen_test_package_abfb0e8e-435.gif" alt="Ego-to-Exo Sample 2"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="assets/demo/ego2exo/3_iou0.715_frying_pan_071edc40-b64.gif" alt="Ego-to-Exo Sample 3"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="assets/demo/exo2ego/1_iou0.937_tissue_paper_roll_849aaee0-866.gif" alt="Exo-to-Ego Sample 1"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="assets/demo/exo2ego/1_iou0.881_flowflex_rapid_antigen_test_kit_6d1847fe-d2d.gif" alt="Exo-to-Ego Sample 2"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="assets/demo/exo2ego/2_iou0.875_frying_pan_071edc40-b64.gif" alt="Exo-to-Ego Sample 3"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="assets/demo/handal/top1_iou0.904_003008_a_spatula.gif" alt="HANDAL-X Sample 1"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="assets/demo/handal/top2_iou0.863_003009_a_spatula.gif" alt="HANDAL-X Sample 2"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="assets/demo/handal/top3_iou0.843_003005_a_utensil.gif" alt="HANDAL-X Sample 3"></td>
+  </tr>
+</table>
 
 ## News
 - [2026/2/21] Our V²-SAM is accepted by CVPR 2026. Thanks to all contributors.
