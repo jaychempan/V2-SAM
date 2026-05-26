@@ -71,6 +71,7 @@ Representative qualitative results on ego-to-exo, exo-to-ego, and robotic-ready 
 </table>
 
 ## News
+- [2026/5/26] Our V2-SAM is invited to the <a href="https://egovis.github.io/cvpr26/">EgoVis Workshop</a> at CVPR 2026!
 - [2026/2/21] Our V²-SAM is accepted by CVPR 2026. Thanks to all contributors.
 - [2025/11/25] Our paper of "V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence" is up on [arXiv](https://arxiv.org/abs/2511.20886).
 
